@@ -1,0 +1,106 @@
+
+
+
+#text div {
+    position:relative;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed gray;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  #text {
+    width:625px;
+    height:620px;
+    background:black;
+    border:5px solid black;
+    margin:auto;
+  }
+  
+  #images {
+    width: 100%;
+  }
+  
+  #drag1,
+  #drag2,
+  #drag3,
+  #drag4,
+  #drag5,
+  #drag6,
+  #drag7,
+  #drag8,
+  #drag9,
+  #drag10,
+  #drag11,
+  #drag12 {
+    height: 200px;
+    width: 200px;
+    
+    display: inline-block;
+    
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    transform-origin: top left;
+    /* IE 10+, Firefox, etc. */
+    -webkit-transform-origin: top left;
+    /* Chrome */
+    -ms-transform-origin: top left;
+    /* IE 9 */
+  }
+  
+  #drag1 {
+    background-image: url("1-100.jpg");
+  }
+  
+  #drag2 {
+    background-image: url("2-100.jpg");
+  }
+  
+  #drag3 {
+    background-image: url("3-100.jpg");
+  }
+  
+  #drag4 {
+    background-image: url("4-100.jpg");
+  }
+  
+  #drag5 {
+    background-image: url("5-100.jpg");
+  }
+  
+  #drag6 {
+    background-image: url("6-100.jpg");
+  }
+  
+  #drag7 {
+    background-image: url("7-100.jpg");
+  }
+  
+  #drag8 {
+    background-image: url("8-100.jpg");
+  }
+  #drag9 {
+    background-image: url("9-100.jpg");
+  }
+  
+
+  
+  
+  .rotate90 {
+    transform: rotate(90deg) translateY(-100%);
+    -webkit-transform: rotate(90deg) translateY(-100%);
+    -ms-transform: rotate(90deg) translateY(-100%);
+  }
+  .rotate180 {
+    transform: rotate(180deg) translate(-100%, -100%);
+    -webkit-transform: rotate(180deg) translate(-100%, -100%);
+    -ms-transform: rotate(180deg) translateX(-100%, -100%);
+  }
+  .rotate270 {
+    transform: rotate(270deg) translateX(-100%);
+    -webkit-transform: rotate(270deg) translateX(-100%);
+    -ms-transform: rotate(270deg) translateX(-100%);
+  }
